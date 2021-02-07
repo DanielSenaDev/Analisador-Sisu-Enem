@@ -26,7 +26,7 @@ Este programa foi produzido por Daniel Santos de Sena como projeto final do curs
 
 ### 3 - Iniciando a análise e exibindo os gráficos
 Após fazer a etapa 2 contida neste readme:
-- Clique no curso que deseja visualizar os dados
+- Clique no curso que deseja visualizar os dados.
 - Após isso, será exibido os gráficos.
 
 ## Outros
@@ -34,7 +34,7 @@ Após fazer a etapa 2 contida neste readme:
 ### Botão Limpar tudo
 
 Este botão se encontra no menu "Arquivo".
-Quando clicado, irá resetar os dados. deixando o programa como se tivesse acabdo de iniciar.
+Quando clicado, irá resetar os dados. deixando o programa como se tivesse acabado de iniciar.
 
 
 ### Status
@@ -58,5 +58,5 @@ Após isso o programa se encerrará.
 - Este gráfico irá analisar a menor média(nota de corte) de cada demanda existente na aprovação daquele curso. Ou seja, irá mostrar a nota do ultimo candidato em cada demanda.
 
 # Linguagem e ferramentas utilizadas
-Este programa foi feito utilizando a linguagem de programação Java e JavaFx atráves da IDE NetBeans.
+Este programa foi feito utilizando a linguagem de programação Java e JavaFx atráves da IDE NetBeans juntamento com o software Scene Builder.
 
