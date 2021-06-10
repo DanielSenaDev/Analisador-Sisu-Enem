@@ -58,5 +58,5 @@ Após isso o programa se encerrará.
 - Este gráfico irá analisar a menor média(nota de corte) de cada demanda existente na aprovação daquele curso. Ou seja, irá mostrar a nota do ultimo candidato em cada demanda.
 
 # Linguagem e ferramentas utilizadas
-Este programa foi feito utilizando a linguagem de programação Java e JavaFx atráves da IDE NetBeans juntamento com o software Scene Builder.
+Este programa foi feito utilizando a linguagem de programação Java e JavaFx atráves da IDE NetBeans juntamente com o software Scene Builder.
 
