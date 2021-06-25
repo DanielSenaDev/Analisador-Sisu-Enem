@@ -68,6 +68,10 @@ public class FXMLDocumentController {
     @FXML
     private NumberAxis eixoMinDemandaY;
     
+    /**
+     * Mostra em texto o status atual do Programa.
+     * 
+     */
     @FXML
     private Label statusLabel;
 
@@ -110,8 +114,17 @@ public class FXMLDocumentController {
             }
             
             //EXTRAS
-            limparTudo.setDisable(false); //Opcao "Limpar Tudo" fica disponivel
-            statusLabel.setText("(Arquivo aberto! Selecione um curso.)"); //Status alterado
+            
+            if (!(listView.getItems().isEmpty())){
+                limparTudo.setDisable(false); //Opcao "Limpar Tudo" fica disponivel
+                statusLabel.setText("(Arquivo aberto! Selecione um curso.)"); //Status alterado
+            } else {
+                limparTudo.setDisable(true); //Opcao "Limpar Tudo" fica disponivel
+                statusLabel.setText("(Não foi carregado um arquivo válido.)"); //Status alterado
+            }
+            //EXTRAS
+            //limparTudo.setDisable(false); //Opcao "Limpar Tudo" fica disponivel
+            //statusLabel.setText("(Arquivo aberto! Selecione um curso.)"); //Status alterado
             
         } catch (Exception e) { //Caso nenhum arquivo seja carregado.
             statusLabel.setText("(Não foi carregado nenhum arquivo nesta ultima operação.)");   
@@ -165,7 +178,7 @@ public class FXMLDocumentController {
             
             // EXTRAS
             limparTudo.setDisable(false); //Opcao "Limpar tudo" fica disponivel
-            statusLabel.setText("(Curso selecionado: "+curso); //Status alterado
+            statusLabel.setText("(Curso selecionado: "+curso+")"); //Status alterado
             
         } catch (Exception e) { //Caso clique no listView vazio
             statusLabel.setText("(Ainda não foi iniciado um arquivo. Abra um novo arquivo para iniciar.)");
